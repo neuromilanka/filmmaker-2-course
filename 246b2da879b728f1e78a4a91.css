@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.lt-basket { position: fixed; z-index: 200; width: 500px; max-width: 100%; top: 0px; right: 0px; bottom: 0px; overflow-y: auto; padding-bottom: 20px; background: rgb(51, 51, 51); color: white; }
+
+.lt-basket.basket-collapsed { width: 250px; text-align: center; top: 50px; right: 50px; height: auto; bottom: auto; }
+
+.lt-basket.basket-collapsed .collapsed-view { display: block; padding: 10px; }
+
+.lt-basket.basket-collapsed .total-view { display: none; }
+
+.lt-basket .collapsed-view { display: none; }
+
+.lt-basket .collapsed-view .price { font-size: 25px; margin-top: 20px; }
+
+.lt-basket .collapsed-view .buttons { margin-top: 10px; }
+
+.lt-basket .collapsed-view .old-total-cost-str { text-decoration: line-through; }
+
+.lt-basket .total-view { display: block; }
+
+.lt-basket .total-view .btn { margin-left: 20px; }
+
+.lt-basket .btn { border-radius: 0px; }
+
+.lt-basket .header { padding-left: 20px; }
+
+.lt-basket .close-btn { cursor: pointer; position: absolute; top: 10px; right: 20px; font-size: 25px; }
+
+.lt-basket .table-wrapper { padding: 20px; }
+
+.lt-basket .positions-table { color: white; }
+
+.lt-basket .positions-table .offer-count { width: 40px; white-space: nowrap; text-align: right; }
+
+.lt-basket .positions-table .offer-count-td { white-space: nowrap; }
+
+.lt-basket .positions-table .offer-price, .lt-basket .positions-table .total-price, .lt-basket .positions-table .old-offer-price, .lt-basket .positions-table .old-total-price { white-space: nowrap; text-align: right; }
+
+.lt-basket .positions-table .old-offer-price, .lt-basket .positions-table .old-total-price { text-decoration: line-through; }
+
+.lt-basket .positions-table .total-row { }
+
+.lt-basket .positions-table .total-row td { border-top-width: 3px; }
+
+.lt-basket .positions-table .btn-delete-position { cursor: pointer; }

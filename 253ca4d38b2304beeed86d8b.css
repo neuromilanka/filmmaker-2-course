@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.lt-gallery .thumbnails-list a { margin-bottom: 20px; margin-right: 10px; display: inline-block; width: 200px; }
+
+@media (max-width: 640px) {
+  .lt-gallery .thumbnails-list a { width: 100%; }
+}
+
+.lt-gallery .thumbnails-list a img { width: 100%; }
+
+.lt-gallery .blueimp-gallery-carousel { box-shadow: none; margin: 0px; background: transparent; }
+
+.glr02 .blueimp-gallery-carousel .title { color: rgb(153, 153, 153); text-shadow: none; }
+
+.glr03 .blueimp-gallery-carousel .title { text-shadow: none; bottom: 10px; top: auto; width: 100%; text-align: center; color: white; }
+
+.glr03 .blueimp-gallery-carousel .next, .glr03 .blueimp-gallery-carousel .prev { font-size: 100px; background: transparent; color: rgb(153, 153, 153); box-shadow: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; }

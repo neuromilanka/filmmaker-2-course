@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.lt-block .parts-wrapper { z-index: 1; align-self: center; }
+
+.lt-block .parts-wrapper.animated { transform: translateY(20%); transition: 0.25s ease-in-out; opacity: 0; }
+
+.lt-block .bg-animated { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+
+.lt-block .bg-animated-overlay { height: 100%; opacity: 0; }
+
+.lt-block .bg-animated, .lt-block .bg-animated-overlay { transition: 0.25s ease-in-out; position: absolute; inset: 0px; }
+
+.lt-block .animated { overflow: hidden; }
+
+.lt-block .animated:hover .bg-animated { transform: scale(1.05); }
+
+.lt-block .animated:hover .bg-animated-overlay { opacity: 0.8; }
+
+.lt-block .parts-wrapper .tile-content { transition: 0.2s ease-in-out; margin: 30px auto; position: relative; }
+
+.lt-block .animated:hover .parts-wrapper.animated { opacity: 1; transform: translateY(0px); }

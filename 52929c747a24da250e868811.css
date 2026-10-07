@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.blueimp-gallery > .indicator { position: absolute; inset: auto 15px 15px; margin: 0px 40px; padding: 0px; list-style: none; text-align: center; line-height: 10px; display: none; }
+
+.blueimp-gallery > .indicator > li { display: inline-block; width: 9px; height: 9px; margin: 6px 3px 0px; box-sizing: content-box; border: 1px solid transparent; background: center center no-repeat rgba(255, 255, 255, 0.25); border-radius: 5px; box-shadow: rgb(0, 0, 0) 0px 0px 2px; opacity: 0.5; cursor: pointer; }
+
+.blueimp-gallery > .indicator > li:hover, .blueimp-gallery > .indicator > .active { background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); opacity: 1; }
+
+.blueimp-gallery-controls > .indicator { display: block; transform: translateZ(0px); }
+
+.blueimp-gallery-single > .indicator { display: none; }
+
+.blueimp-gallery > .indicator { user-select: none; }
+
+* + html .blueimp-gallery > .indicator > li { display: inline; }

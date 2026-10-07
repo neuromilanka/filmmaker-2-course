@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.lt-image .lt-image-common { max-width: 100%; }
+
+@media screen and (max-width: 960px) {
+  .lt-image-withtext .description { padding-bottom: 20px; }
+  .lt-image-withtext .image { padding-bottom: 20px; }
+  .lt-image-withtext .test-123 { color: black; }
+}
+
+.lt-gallery .lt-gallery-item-html { bottom: 20px; right: 40px; padding: 10px; background: rgb(240, 240, 240); position: absolute; font-size: 14px; }
+
+.lt-gallery .lt-gallery-item-html img { margin-right: 20px; }

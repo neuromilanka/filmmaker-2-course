@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.rd-alert-notification-wrapper { position: fixed; top: 24px; left: 84px; max-width: 900px; width: 100%; z-index: 1001001; }
+
+.rd-alert-notification__close { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; padding: 0px; margin: 0px; position: absolute; top: -12px; right: -12px; box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 5px 0px; background: var(--primary-white); border-radius: 100%; z-index: 900001; cursor: pointer; }
+
+.rd-alert-notification { box-shadow: rgba(13, 54, 56, 0.13) 0px 2px 26px 0px; box-sizing: border-box; display: flex; align-items: center; gap: 10px; background: var(--primary-white) !important; color: var(--primary-black) !important; border-radius: 12px !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: none !important; }
+
+.rd-alert-notification.alert-danger::before { content: ""; min-width: 40px; height: 40px; border-radius: 8px; font-size: 30px; display: flex; align-items: center; justify-content: center; color: var(--primary-white); background: var(--secondary-red); font-family: gc_icons !important; }

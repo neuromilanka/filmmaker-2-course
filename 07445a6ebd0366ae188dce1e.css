@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.block-set mark { background-color: rgb(255, 214, 30); color: rgb(0, 0, 0); text-decoration: none; }
+
+.block-set pre, .block-set code, .block-set kbd, .block-set samp, .block-set var, .block-set output { font-size: 90%; font-style: normal; font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+
+.block-set pre { margin-top: 16px; font-size: 90%; line-height: 24px; color: rgba(0, 0, 0, 0.75); overflow: auto; background: rgba(0, 0, 0, 0.03); padding: 24px; overflow-wrap: normal; }
+
+.block-set mark, .block-set code, .block-set samp, .block-set kbd { padding: 0.2rem 0.4rem; display: inline-block; line-height: 1; border-radius: 4px; }
+
+.block-set code { background: rgba(0, 0, 0, 0.05); }
+
+.block-set pre code { font-size: 100%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px; background: none; line-height: 24px; }
+
+.block-set var { color: rgba(0, 0, 0, 0.5); }
+
+.block-set samp { background: rgb(70, 169, 252); color: rgba(255, 255, 255, 0.9); }
+
+.block-set kbd { background: rgb(0, 0, 0); color: rgba(255, 255, 255, 0.85); white-space: nowrap; }
+
+.block-set figure { text-align: center; }
