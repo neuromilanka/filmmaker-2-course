@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.btn.f-btn.button-md, .btn.f-btn.button-sm, .btn.f-btn.button-lg { background-color: rgb(0, 0, 0); min-height: 36px; width: fit-content; border-radius: 8px; padding: 13px 26px; font-weight: 400; min-width: 130px; }
+
+.btn.f-btn.button-sm { font-weight: 550; font-size: 14px; line-height: 130%; }
+
+.btn.f-btn.button-lg { font-weight: 550; font-size: 22px; line-height: 130%; }
+
+.btn.f-btn.button-md { font-weight: 550; font-size: 18px; line-height: 130%; }
+
+.lt-menu .btn.f-btn.button-md { padding-left: 10px; padding-right: 10px; min-height: 20px; font-size: 14px; }
+
+.lt-menu .btn.f-btn.button-sm { padding-left: 8px; padding-right: 8px; font-size: 12px; min-height: 18px; }
+
+.lt-menu .btn.f-btn.button-lg { padding-left: 40px; padding-right: 40px; min-height: 47px; font-size: 18px; }
+
+.btn.f-btn:disabled, .btn.f-btn[disabled] { cursor: not-allowed; color: transparent; opacity: 0.5; box-shadow: none; }
+
+.btn.f-btn:disabled span { display: none; }
+
+.btn.f-btn:disabled .spinner-wrapper { display: block; }
+
+.btn.f-btn:enabled .spinner-wrapper { display: none; }

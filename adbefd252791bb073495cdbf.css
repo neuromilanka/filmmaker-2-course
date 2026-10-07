@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@import url(icons.css);
+
+@import url(notifications.css);
+
+@import url(work_statuses.css);
+
+@import url(useless.css);
+
+:root { --menu-bg-color: var(--account-theme-secondary-color); --slim-menu-account-user-menu-bg-color: var(--account-theme-secondary-color); --menu-item-link-bg-color: var(--account-theme-secondary-color); --menu-item-link-hover-bg-color: var(--account-theme-secondary-dark-color); --menu-item-active-selected-link-bg-color: var(--account-theme-secondary-dark-color); --menu-item-border-bottom-color: var(--account-theme-secondary-color); }
+
+:root { --menu-toggle-link-color: var(--account-theme-primary-text); --slim-menu-toggle-link-bg-color: var(--account-theme-main-dark-color-hover); --slim-page-nav-items-menu-link-color: var(--account-theme-secondary-color); --slim-page-nav-items-menu-link-bg-color: var(--account-theme-main-dark-color); }
+
+:root { --menu-notify-count-color: var(--account-theme-primary-white); --menu-notify-count-bg-color: var(--account-theme-secondary-red); --menu-item-notifications-notify-count-bg-color: var(--account-theme-secondary-green); --menu-item-chatium-notify-count-bg-color: var(--account-theme-secondary-orange); --submenu-chatium-updates-notify-count-bg-color: var(--account-theme-secondary-orange); }
+
+:root { --submenu-bg-color: var(--account-theme-secondary-dark-color); --fade-bg-color: var(--account-theme-primary-black); --submenu-h3-font-family: var(--account-theme-main-family-font); --submenu-h3-color: var(--account-theme-primary-text); --submenu-item-link-font-family: var(--account-theme-main-family-font); --submenu-item-link-color: var(--account-theme-primary-text); --submenu-item-link-hover-bg-color: transparent; --submenu-item-delimiter-link-border-top-color: var(--account-theme-primary-black-second-light); --submenu-item-help-link-border-top-color: var(--account-theme-primary-black-second-light); --submenu-item-crm-learning-link-color: var(--account-theme-primary-alert); --submenu-item-gus-font-family: var(--account-theme-main-family-font); --submenu-item-gus-link-color: var(--account-theme-main-dark-color); }

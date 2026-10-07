@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/100/ALSGranate-Thin.woff2) format("woff2"), url(../new-fonts/100/ALSGranate-Thin.woff) format("woff"), url(../new-fonts/100/ALSGranate-Thin.ttf) format("truetype"); font-weight: 100; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/100-it/ALSGranate-ThinItalic.woff2) format("woff2"), url(../new-fonts/100-it/ALSGranate-ThinItalic.woff) format("woff"), url(../new-fonts/100-it/ALSGranate-ThinItalic.ttf) format("truetype"); font-weight: 100; font-style: italic; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/200/ALSGranate-Light.woff2) format("woff2"), url(../new-fonts/200/ALSGranate-Light.woff) format("woff"), url(../new-fonts/200/ALSGranate-Light.ttf) format("truetype"); font-weight: 200; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/200-it/ALSGranate-LightItalic.woff2) format("woff2"), url(../new-fonts/200-it/ALSGranate-LightItalic.woff) format("woff"), url(../new-fonts/200-it/ALSGranate-LightItalic.ttf) format("truetype"); font-weight: 200; font-style: italic; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/400/ALSGranate-Regular.woff2) format("woff2"), url(../new-fonts/400/ALSGranate-Regular.woff) format("woff"), url(../new-fonts/400/ALSGranate-Regular.ttf) format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/400-it/ALSGranate-RegularItalic.woff2) format("woff2"), url(../new-fonts/400-it/ALSGranate-RegularItalic.woff) format("woff"), url(../new-fonts/400-it/ALSGranate-RegularItalic.ttf) format("truetype"); font-weight: normal; font-style: italic; }
+
+@font-face { font-family: als-font-80-book; src: url(../new-fonts/400-book/ALSGranate-Book.woff2) format("woff2"), url(../new-fonts/400-book/ALSGranate-Book.woff) format("woff"), url(../new-fonts/400-book/ALSGranate-Book.ttf) format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: als-font-80-book-it; src: url(../new-fonts/400-book-it/ALSGranate-BookItalic.woff2) format("woff2"), url(../new-fonts/400-book-it/ALSGranate-BookItalic.woff) format("woff"), url(../new-fonts/400-book-it/ALSGranate-BookItalic.ttf) format("truetype"); font-weight: normal; font-style: italic; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/500/ALSGranate-Medium.woff2) format("woff2"), url(../new-fonts/500/ALSGranate-Medium.woff) format("woff"), url(../new-fonts/500/ALSGranate-Medium.ttf) format("truetype"); font-weight: 500; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/500-it/ALSGranate-MediumItalic.woff2) format("woff2"), url(../new-fonts/500-it/ALSGranate-MediumItalic.woff) format("woff"), url(../new-fonts/500-it/ALSGranate-MediumItalic.ttf) format("truetype"); font-weight: 500; font-style: italic; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/700/ALSGranate-Bold.woff2) format("woff2"), url(../new-fonts/700/ALSGranate-Bold.woff) format("woff"), url(../new-fonts/700/ALSGranate-Bold.ttf) format("truetype"); font-weight: bold; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/700-it/ALSGranate-BoldItalic.woff2) format("woff2"), url(../new-fonts/700-it/ALSGranate-BoldItalic.woff) format("woff"), url(../new-fonts/700-it/ALSGranate-BoldItalic.ttf) format("truetype"); font-weight: bold; font-style: italic; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/800/ALSGranate-Black.woff2) format("woff2"), url(../new-fonts/800/ALSGranate-Black.woff) format("woff"), url(../new-fonts/800/ALSGranate-Black.ttf) format("truetype"); font-weight: 800; font-style: normal; }
+
+@font-face { font-family: "ALS Granate VF"; src: url(../new-fonts/800-it/ALSGranate-BlackItalic.woff2) format("woff2"), url(../new-fonts/800-it/ALSGranate-BlackItalic.woff) format("woff"), url(../new-fonts/800-it/ALSGranate-BlackItalic.ttf) format("truetype"); font-weight: 800; font-style: italic; }
+
+@font-face { font-family: als-font-80-variable; src: url(../new-fonts/ALS_Granate_VF_0.9.ttf); }
+
+@font-face { font-family: "ALS Hauss Mono VF"; src: url(../new-fonts/als-hauss-mono/ALSHaussMono-Regular.woff2) format("woff2"), url(../new-fonts/als-hauss-mono/ALSHaussMono-Regular.woff) format("woff"), url(../new-fonts/als-hauss-mono/ALSHaussMono-Regular.ttf) format("truetype"); font-weight: normal; font-style: normal; }

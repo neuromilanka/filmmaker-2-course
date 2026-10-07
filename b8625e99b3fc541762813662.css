@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+:root { --primary-background-color: #fff; --logo-text-color: #00000059; }
+
+body { background-color: var(--primary-background-color); }
+
+.standard-logo .logo-text, .logo-text { color: var(--logo-text-color) !important; }
+
+:root { --qr-link-color: #fff; --menu-bg-color: #2c3e50; --menu-worksheet-is-not-working-color: #ffffff; --menu-worksheet-is-not-working-bg-color: #9E9E9E; --menu-worksheet-is-working-color: #ffffff; --menu-worksheet-is-working-bg-color: #03BFA5; --menu-worksheet-is-working-project-color: #ffffff; --menu-worksheet-is-working-project-bg-color: #03BFA5; --menu-worksheet-is-working-incoming-color: #ffffff; --menu-worksheet-is-working-incoming-bg-color: #03BFA5; --menu-worksheet-is-sorting-color: #ffffff; --menu-worksheet-is-sorting-bg-color: #03BFA5; --menu-worksheet-is-duty-color: #ffffff; --menu-worksheet-is-duty-bg-color: #03BFA5; --menu-worksheet-is-working-consult-color: #ffffff; --menu-worksheet-is-working-consult-bg-color: #FF9800; --menu-worksheet-is-meeting-color: #ffffff; --menu-worksheet-is-meeting-bg-color: #FF9800; --menu-worksheet-is-training-color: #ffffff; --menu-worksheet-is-training-bg-color: #FF9800; --menu-worksheet-is-mentoring-color: #ffffff; --menu-worksheet-is-mentoring-bg-color: #FF9800; --menu-worksheet-is-assignment-color: #ffffff; --menu-worksheet-is-assignment-bg-color: #FF9800; --menu-worksheet-is-official-color: #ffffff; --menu-worksheet-is-official-bg-color: #FF9800; }
+
+.gc-account-leftbar { background-color: var(--menu-bg-color); }
+
+.gc-account-leftbar .qr-link { color: var(--qr-link-color); }
+
+.gc-account-leftbar .sub-icon .worksheet.is_not_working { color: var(--menu-worksheet-is-not-working-color) !important; background: var(--menu-worksheet-is-not-working-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_working { color: var(--menu-worksheet-is-working-color) !important; background: var(--menu-worksheet-is-working-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_working_project { color: var(--menu-worksheet-is-working-project-color) !important; background: var(--menu-worksheet-is-working-project-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_working_incoming { color: var(--menu-worksheet-is-working-incoming-color) !important; background: var(--menu-worksheet-is-working-incoming-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_sorting { color: var(--menu-worksheet-is-sorting-color) !important; background: var(--menu-worksheet-is-sorting-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_duty { color: var(--menu-worksheet-is-duty-color) !important; background: var(--menu-worksheet-is-duty-bg-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_working_consult { background-color: var(--menu-worksheet-is-working-consult-bg-color) !important; color: var(--menu-worksheet-is-working-consult-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_meeting { background-color: var(--menu-worksheet-is-meeting-bg-color) !important; color: var(--menu-worksheet-is-meeting-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_training { background-color: var(--menu-worksheet-is-training-bg-color) !important; color: var(--menu-worksheet-is-training-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_mentoring { background-color: var(--menu-worksheet-is-mentoring-bg-color) !important; color: var(--menu-worksheet-is-mentoring-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_assignment { background-color: var(--menu-worksheet-is-assignment-bg-color) !important; color: var(--menu-worksheet-is-assignment-color) !important; }
+
+.gc-account-leftbar .sub-icon .worksheet.is_official { background-color: var(--menu-worksheet-is-official-bg-color) !important; color: var(--menu-worksheet-is-official-color) !important; }
+
+:root { --menu-toggle-link-bg-color: #34495e; --menu-toggle-link-color: #fff; --menu-notify-count-bg-color: #d2322dc9; --menu-notify-count-color: #fff; --menu-item-border-bottom-color: transparent; --menu-item-link-color: #fff; --menu-item-link-bg-color: #34495e; --menu-item-link-hover-bg-color: #5f7184; --menu-item-profile-is-not-working-img-border-color: #9E9E9E; --menu-item-profile-is-working-img-border-color: #03BFA5; --menu-item-profile-is-working-project-img-border-color: #03BFA5; --menu-item-profile-is-working-incoming-img-border-color: #03BFA5; --menu-item-profile-is-sorting-img-border-color: #03BFA5; --menu-item-profile-is-duty-img-border-color: #03BFA5; --menu-item-profile-is-working-consult-img-border-color: #FF9800; --menu-item-profile-is-meeting-img-border-color: #FF9800; --menu-item-profile-is-training-img-border-color: #FF9800; --menu-item-profile-is-mentoring-img-border-color: #FF9800; --menu-item-profile-is-assignment-img-border-color: #FF9800; --menu-item-profile-is-official-img-border-color: #FF9800; --menu-item-profile-is-break-img-border-color: #7B61FF; }
+
+.gc-account-leftbar .toggle-link { background: var(--menu-toggle-link-bg-color); color: var(--menu-toggle-link-color); }
+
+.gc-account-leftbar .notify-count { background: var(--menu-notify-count-bg-color); color: var(--menu-notify-count-color); }
+
+.gc-account-leftbar .gc-account-user-menu li { border-bottom-color: var(--menu-item-border-bottom-color); }
+
+.gc-account-leftbar .gc-account-user-menu li a { color: var(--menu-item-link-color); background: var(--menu-item-link-bg-color); }
+
+.gc-account-leftbar .gc-account-user-menu li a:hover { background-color: var(--menu-item-link-hover-bg-color); }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_not_working img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_not_working a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-not-working-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-working-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_project img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_project a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-working-project-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_incoming img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_incoming a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-working-incoming-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_sorting img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_sorting a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-sorting-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_duty img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_duty a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-duty-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_consult img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_working_consult a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-working-consult-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_meeting img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_meeting a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-meeting-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_training img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_training a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-training-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_mentoring img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_mentoring a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-mentoring-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_assignment img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_assignment a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-assignment-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_official img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_official a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-official-img-border-color) !important; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_break img, .gc-account-leftbar .gc-account-user-menu li.menu-item-profile.worksheet__is_break a::after { border-width: 3px; border-style: solid; border-color: var(--menu-item-profile-is-break-img-border-color) !important; }
+
+:root { --menu-item-notifications-notify-count-bg-color: #72992ed9; --menu-item-chatium-notify-count-bg-color: #ec8215d9; --menu-item-active-selected-link-bg-color: #f0f0f0; --menu-selected-qr-link-color: #000; }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-notifications .notify-count { background: var(--menu-item-notifications-notify-count-bg-color); }
+
+.gc-account-leftbar .gc-account-user-menu li.menu-item-chatium .notify-count { background: var(--menu-item-chatium-notify-count-bg-color); }
+
+.gc-account-leftbar .gc-account-user-menu li.active a, .gc-account-leftbar .gc-account-user-menu li.selected a { background: var(--menu-item-active-selected-link-bg-color); }
+
+.gc-account-leftbar .gc-account-user-menu .selected .qr-link { color: var(--menu-selected-qr-link-color); }
+
+:root { --submenu-bg-color: #f0f0f0; --submenu-item-delimiter-link-border-top-color: #ddd; --submenu-item-help-link-border-top-color: #ddd; }
+
+.gc-account-leftbar .gc-account-user-submenu-bar { background: var(--submenu-bg-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar li.menu-item-delimiter a { border-top-color: var(--submenu-item-delimiter-link-border-top-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar li.menu-item-help a { border-top-color: var(--submenu-item-help-link-border-top-color); }
+
+:root { --menu-notifications-button-small-footer-bg-color: #e0e0e0; --menu-notifications-button-small-footer-link-border-bottom-color: #e0e0e0; --menu-notifications-button-small-footer-link-color: #000000; --menu-notifications-button-small-header-link-color: #000000; --menu-notifications-button-small-notification-group-hover-color: #fdf9f1; --menu-notifications-button-small-notification-group-color: #333333; --menu-notifications-button-small-notification-group-border-top-color: #e0e0e0; --menu-notifications-button-small-notification-group-background-color: #ffffff; --menu-notifications-button-small-notification-group-date-color: #c3c3c3; --menu-notifications-button-small-notification-group-mark-viewed-color: #c3c3c3; --menu-notifications-button-small-notification-group-mark-viewed-hover-color: #000000; --menu-notifications-button-small-notification-group-status-viewed-color: #afafaf; --menu-notifications-button-small-notification-group-status-viewed-bg-color: #f0f0f0; --menu-notifications-button-small-notification-group-status-viewed-hover-color: #737373; }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notifications-footer { background-color: var(--menu-notifications-button-small-footer-bg-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .all-notifications-footer-link { border-bottom-color: var(--menu-notifications-button-small-footer-link-border-bottom-color); color: var(--menu-notifications-button-small-footer-link-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .all-notifications-header-link { color: var(--menu-notifications-button-small-header-link-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group:hover { background-color: var(--menu-notifications-button-small-notification-group-hover-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group { color: var(--menu-notifications-button-small-notification-group-color); border-top-color: var(--menu-notifications-button-small-notification-group-border-top-color); background-color: var(--menu-notifications-button-small-notification-group-background-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group .date { color: var(--menu-notifications-button-small-notification-group-date-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group .mark-viewed { color: var(--menu-notifications-button-small-notification-group-mark-viewed-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group .mark-viewed:hover { color: var(--menu-notifications-button-small-notification-group-mark-viewed-hover-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group.notification-status-viewed:hover { color: var(--menu-notifications-button-small-notification-group-status-viewed-hover-color); }
+
+.gc-account-leftbar .gc-account-user-submenu-bar-notifications_button_small .notification-group.notification-status-viewed { background-color: var(--menu-notifications-button-small-notification-group-status-viewed-bg-color); color: var(--menu-notifications-button-small-notification-group-status-viewed-color); }
+
+:root { --menu-item-label-color: #fff; --menu-active-item-label-color: #2c3e50; --submenu-chatium-updates-notify-count-bg-color: #ec8215; --submenu-h3-color: #7f8c9a; --submenu-h3-font-family: inherit; --submenu-item-link-color: #34495e; --submenu-item-link-font-family: inherit; --submenu-item-link-hover-bg-color: #e0e0e0; --submenu-item-gus-link-color: #00c7be; --submenu-item-gus-font-family: inherit; --submenu-item-crm-learning-link-color: rgb(157, 31, 20); }
+
+.gc-account-leftbar .menu-item-label { color: var(--menu-item-label-color); }
+
+.gc-account-leftbar li.active .menu-item-label, .gc-account-leftbar li.selected .menu-item-label { color: var(--menu-active-item-label-color); }
+
+.gc-account-user-submenu-bar .menu-item-chatium_updates .notify-count { background: var(--submenu-chatium-updates-notify-count-bg-color); }
+
+.gc-account-user-submenu-bar h3 { color: var(--submenu-h3-color); font-family: var(--submenu-h3-font-family); }
+
+.gc-account-user-submenu-bar .gc-account-user-submenu li a { color: var(--submenu-item-link-color); font-family: var(--submenu-item-link-font-family); }
+
+.gc-account-user-submenu-bar .gc-account-user-submenu li a:hover { background: var(--submenu-item-link-hover-bg-color); }
+
+.gc-account-user-submenu-bar .gc-account-user-submenu li[class*="menu-item-gus"] a { color: var(--submenu-item-gus-link-color); font-family: var(--submenu-item-gus-font-family); }
+
+.gc-account-user-submenu-bar .gc-account-user-submenu .menu-item-crm_learning a { color: var(--submenu-item-crm-learning-link-color); }
+
+:root { --fade-bg-color: #000; --account-user-help-bg-color: #35495d; --account-user-help-hover-bg-color: #5f7184; --page-nav-items-menu-color: #fff; --page-nav-items-menu-link-bg-color: #000; --page-nav-items-menu-link-color: #fff; }
+
+.gc-fade-wrapper .gc-fade { background: var(--fade-bg-color); }
+
+.gc-account-user-help:not(.gc-right-active-block .gc-account-user-help) { background-color: var(--account-user-help-bg-color); }
+
+.gc-account-user-help:hover:not(.gc-right-active-block .gc-account-user-help:hover) { background-color: var(--account-user-help-hover-bg-color); }
+
+.gc-page-nav-items-menu:not(.gc-right-active-block .gc-page-nav-items-menu) { color: var(--page-nav-items-menu-color); }
+
+.gc-page-nav-items-menu a:not(.gc-right-active-block .gc-page-nav-items-menu a) { background: var(--page-nav-items-menu-link-bg-color); color: var(--page-nav-items-menu-link-color); }
+
+:root { --slim-menu-toggle-link-bg-color: #2c3e50; --slim-menu-account-user-menu-bg-color: #2c3e50; --slim-menu-expanded-bg-color: transparent; --slim-page-nav-items-menu-link-bg-color: #21252f; --slim-page-nav-items-menu-link-color: #fff; }
+
+@media (max-width: 768px) {
+  .gc-account-leftbar .toggle-link { background: var(--slim-menu-toggle-link-bg-color); }
+  .gc-account-leftbar .gc-account-user-menu { background: var(--slim-menu-account-user-menu-bg-color); }
+  .gc-account-leftbar.expanded { background: var(--slim-menu-expanded-bg-color); }
+  .gc-page-nav-items-menu a:not(.gc-right-active-block .gc-page-nav-items-menu a) { background: var(--slim-page-nav-items-menu-link-bg-color); color: var(--slim-page-nav-items-menu-link-color); }
+}
+
+:root { --menu-profile-icon-width: 56px; --menu-profile-icon-height: 56px; --menu-profile-icon-image: url(/public/img/default_profile_50.png); --menu-marathon-icon-width: 35px; --menu-marathon-icon-height: 35px; --menu-marathon-icon-image: url(/public/img/service/marathon.png); --menu-search-icon-width: 34px; --menu-search-icon-height: 34px; --menu-search-icon-image: url(/public/img/service/search.png); --menu-search-active-icon-image: url(/public/img/service/search_active.png); --menu-notify-but-small-icon-width: 37px; --menu-notify-but-small-icon-height: 34px; --menu-notify-but-small-icon-image: url(/public/img/service/notifications_button_small.png); --menu-notify-but-small-active-icon-image: url(/public/img/service/notifications_button_small_active.png); --menu-cms-icon-width: 37px; --menu-cms-icon-height: 34px; --menu-cms-icon-image: url(/public/img/service/cms.png); --menu-cms-active-icon-image: url(/public/img/service/cms_active.png); --menu-teach-icon-width: 28px; --menu-teach-icon-height: 39px; --menu-teach-icon-image: url(/public/img/service/teach.png); --menu-teach-active-icon-image: url(/public/img/service/teach_active.png); --menu-user-icon-width: 35px; --menu-user-icon-height: 31px; --menu-user-icon-image: url(/public/img/service/user.png); --menu-user-active-icon-image: url(/public/img/service/user_active.png); --menu-tasks-icon-width: 34px; --menu-tasks-icon-height: 34px; --menu-tasks-icon-image: url(/public/img/service/tasks.png); --menu-tasks-active-icon-image: url(/public/img/service/tasks_active.png); --menu-notifications-icon-width: 35px; --menu-notifications-icon-height: 35px; --menu-notifications-icon-image: url(/public/img/service/notifications.png); --menu-notifications-active-icon-image: url(/public/img/service/notifications_active.png); --menu-sales-icon-width: 34px; --menu-sales-icon-height: 34px; --menu-sales-icon-image: url(/public/img/service/sales.png); --menu-sales-active-icon-image: url(/public/img/service/sales_active.png); --menu-chatium-icon-width: 34px; --menu-chatium-icon-height: 40px; --menu-chatium-icon-image: url(/public/img/service/chatium.png); --menu-chatium-active-icon-image: url(/public/img/service/chatium_active.png); }
+
+#gcAccountUserMenu:not(.custom-menu, .with-profile-image, .god-profile-image) .gc-account-leftbar .gc-account-user-menu li.menu-item-profile a img, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li:not(.menu-item-profile) a img { display: none; }
+
+#gcAccountUserMenu:not(.custom-menu, .with-profile-image, .god-profile-image) .gc-account-leftbar .gc-account-user-menu li.menu-item-profile a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li:not(.menu-item-profile) a::after { content: ""; display: inline-block; background-repeat: no-repeat; background-size: cover; }
+
+#gcAccountUserMenu:not(.custom-menu, .with-profile-image, .god-profile-image) .gc-account-leftbar .gc-account-user-menu li.menu-item-profile a::after { width: var(--menu-profile-icon-width); height: var(--menu-profile-icon-height); background-image: var(--menu-profile-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-marathon a::after { width: var(--menu-marathon-icon-width); height: var(--menu-marathon-icon-height); background-image: var(--menu-marathon-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-search a::after { width: var(--menu-search-icon-width); height: var(--menu-search-icon-height); background-image: var(--menu-search-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-search.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-search.selected a::after { background-image: var(--menu-search-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications_button_small a::after { width: var(--menu-notify-but-small-icon-width); height: var(--menu-notify-but-small-icon-height); background-image: var(--menu-notify-but-small-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications_button_small.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications_button_small.selected a::after { background-image: var(--menu-notify-but-small-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-cms a::after { width: var(--menu-cms-icon-width); height: var(--menu-cms-icon-height); background-image: var(--menu-cms-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-cms.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-cms.selected a::after { background-image: var(--menu-cms-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-teach a::after { width: var(--menu-teach-icon-width); height: var(--menu-teach-icon-height); background-image: var(--menu-teach-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-teach.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-teach.selected a::after { background-image: var(--menu-teach-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-user a::after { width: var(--menu-user-icon-width); height: var(--menu-user-icon-height); background-image: var(--menu-user-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-user.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-user.selected a::after { background-image: var(--menu-user-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-tasks a::after { width: var(--menu-tasks-icon-width); height: var(--menu-tasks-icon-height); background-image: var(--menu-tasks-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-tasks.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-tasks.selected a::after { background-image: var(--menu-tasks-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications a::after { width: var(--menu-notifications-icon-width); height: var(--menu-notifications-icon-height); background-image: var(--menu-notifications-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications.selected a::after { background-image: var(--menu-notifications-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-sales a::after { width: var(--menu-sales-icon-width); height: var(--menu-sales-icon-height); background-image: var(--menu-sales-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-sales.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-sales.selected a::after { background-image: var(--menu-sales-active-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-chatium a::after { width: var(--menu-chatium-icon-width); height: var(--menu-chatium-icon-height); background-image: var(--menu-chatium-icon-image); }
+
+#gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-chatium.active a::after, #gcAccountUserMenu:not(.custom-menu) .gc-account-leftbar .gc-account-user-menu li.menu-item-chatium.selected a::after { background-image: var(--menu-chatium-active-icon-image); }
+
+.cookies-notification { background-color: var(--primary-white) !important; }
+
+.cookies-notification__content__text, .cookies-notification__actions__button { font-family: var(--base-font-family) !important; color: var(--primary-black) !important; }
+
+.cookies-notification__actions__button { background-color: var(--primary-light-green) !important; }
+
+.cookies-notification__actions__button:hover { background-color: var(--primary-dark-green) !important; }
+
+.page-header .logo.gc-account-logo, .main-page-container .logo.gc-account-logo { gap: 8px; width: 100%; max-width: 100%; box-sizing: border-box; display: flex !important; align-items: center !important; justify-content: flex-start !important; flex-wrap: wrap !important; margin-left: 0px !important; margin-right: 0px !important; text-align: left !important; }
+
+.page-header .logo.gc-account-logo .logo-link, .main-page-container .logo.gc-account-logo .logo-link { display: flex; align-items: center; flex: 0 0 auto; min-width: 0px; width: max-content; max-width: 100%; }
+
+.page-header .logo.gc-account-logo .title-widget-badges, .main-page-container .logo.gc-account-logo .title-widget-badges { flex-shrink: 0; }
+
+.page-header .logo.gc-account-logo .logo-link img, .main-page-container .logo.gc-account-logo .logo-link img { display: block; max-height: 50px; width: auto; height: auto; }
+
+:root { --primary-link-color: #00B881; }
+
+.help-tooltip .tooltip-content a { color: var(--primary-link-color) !important; }

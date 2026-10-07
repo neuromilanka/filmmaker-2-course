@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@font-face { font-family: FontAwesome4; font-weight: normal; font-style: normal; src: url(../webfonts/v4/fontawesome-webfont.woff2) format("woff2"), url(../webfonts/v4/fontawesome-webfont.woff) format("woff"), url(../webfonts/v4/fontawesome-webfont.ttf) format("truetype"); }
+
+@font-face { font-family: FontAwesome5; font-style: normal; font-weight: normal; src: url(../webfonts/v5/fa-brands-400.woff2) format("woff2"), url(../webfonts/v5/fa-brands-400.woff) format("woff"), url(../webfonts/v5/fa-brands-400.ttf) format("truetype"); }
+
+@font-face { font-family: FontAwesomeViber; font-weight: normal; font-style: normal; src: url(../webfonts/fa-viber.ttf?-3dwksg) format("truetype"), url(../webfonts/fa-viber.woff?-3dwksg) format("woff"); }
+
+.fa-viber::before { font: 1em / 1 FontAwesomeViber; content: ""; }
+
+.fab.fa-tripadvisor, .fa.fa-tripadvisor, .fa.fa-meanpath { font: 1em / 1 FontAwesome4; }
+
+.fab.fa-acquisitions-incorporated, .fab.fa-penny-arcade, .fab.fa-adobe { font: 1em / 1 FontAwesome5; }
+
+.fab.fa-tripadvisor::before, .fa.fa-tripadvisor::before { content: ""; }
+
+.fab.fa-acquisitions-incorporated::before { content: ""; }
+
+.fab.fa-penny-arcade::before { content: ""; }
+
+.fa.fa-meanpath::before { content: ""; }
+
+.fab.fa-adobe::before { content: ""; }

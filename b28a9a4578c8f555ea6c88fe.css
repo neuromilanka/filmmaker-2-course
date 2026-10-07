@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.lt-header-common .header { margin-bottom: 10px; }
+
+.hdr01 .subheader { padding-top: 3px; padding-bottom: 22px; text-transform: uppercase; }
+
+.hdr01 .description { padding-top: 21px; }
+
+.hdr02 .subheader { padding-top: 9px; padding-bottom: 93px; text-transform: uppercase; }
+
+.hdr02 .description { padding-top: 50px; padding-bottom: 9px; }
+
+.hdr03 .subheader { padding-top: 9px; padding-bottom: 40px; text-transform: uppercase; }
+
+.hdr03 .header { padding-top: 8px; padding-bottom: 3px; }
+
+.hdr03 .description { padding-top: 41px; }

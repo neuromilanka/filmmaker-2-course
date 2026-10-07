@@ -1,0 +1,3 @@
+@charset "utf-8";
+
+.gc-restyled-audio .jp-video { --gc-audio-player-bg: var(--account-theme-secondary-color); --gc-audio-player-main-color: var(--account-theme-main-dark-color); --gc-audio-player-text-color: var(--account-theme-primary-text); --gc-audio-player-text-color-secondary: var(--account-theme-secondary-grey-35); --gc-audio-player-border: var(--account-theme-secondary-grey-35); --gc-audio-player-progress-bg: var(--account-theme-secondary-grey-5); }

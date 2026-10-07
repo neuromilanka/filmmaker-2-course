@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.lt-text-header-expand .header { cursor: pointer; text-decoration: none; display: inline-block; }
+
+.lt-text-header-expand .header p { display: inline; border-bottom: 1px dashed rgb(0, 0, 0); }
+
+.lt-text-header-expand .text { padding-top: 20px; }
+
+.lt-text-with-key-phrase .keyphrase { float: right; width: 40%; margin: 0px; padding: 6px 0px 20px 10px; font-size: 28px; font-family: "Open Sans", serif; font-weight: 300; line-height: 1.35; }
+
+.lt-text-with-key-phrase .keyphrase .line { width: 100%; max-width: 160px; height: 1px; background-color: rgb(0, 0, 0); margin-bottom: 24px; }
+
+.lt-text-with-key-phrase .text { margin: 0px; float: none; display: inherit; }
+
+.lt-text-header-expand-with-animation .lt-text-header-expand-icon { font-size: 28px; transition: 0.3s; margin-left: 20px; transform-origin: center center; display: flex; align-items: center; justify-content: center; position: absolute; top: 0px; right: 0px; }
+
+.lt-text-header-expand-with-animation .header { position: relative; padding-right: 50px; width: 100%; }
+
+.lt-text-header-expand-with-animation.lt-text-header-expand-open .lt-text-header-expand-icon { transform: rotate(45deg); }
+
+@media only screen and (max-width: 767px) {
+  .lt-text-with-key-phrase .keyphrase { float: none; width: 100%; font-size: 22px; }
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.tml01 .description { color: rgb(119, 119, 119); margin-top: 10px; }
+
+.tml01 .timepoint-circle { width: 20px; height: 20px; position: absolute; top: 23px; left: 2px; border-radius: 100px; border: 2px solid rgb(255, 255, 255); }
+
+.tml01 .timepoint-line { width: 2px; position: absolute; top: 0px; left: 11px; bottom: 0px; background: rgb(255, 123, 0); }
+
+.tml01 .timepoint-info { float: left; width: 100px; padding: 20px 0px; }
+
+.tml01 .timepoint-content { position: relative; padding: 20px 0px 20px 55px; overflow: hidden; }
+
+.tml01 .timepoint-content .subheader { display: none; }
+
+.tml01 .timepoint-content .header { margin-bottom: 6px; }
+
+@media screen and (max-width: 640px) {
+  .tml01 .timepoint-info { display: none; }
+  .tml01 .timepoint-line { left: 5px; }
+  .tml01 .timepoint-content { padding: 16px 0px 16px 30px; overflow: visible; }
+  .tml01 .timepoint-content .subheader { display: block; font-size: 16px; }
+  .tml01 .timepoint-circle { width: 14px; height: 14px; top: 17px; left: -2px; }
+}
+
+@media only screen and (max-width: 540px) {
+  .tml01 .timepoint-content { padding-left: 20px; }
+  .tml01 .timepoint-content .subheader { font-size: 14px; }
+  .tml01 .timepoint-line { left: 4px; }
+  .tml01 .timepoint-circle { width: 13px; height: 13px; }
+}

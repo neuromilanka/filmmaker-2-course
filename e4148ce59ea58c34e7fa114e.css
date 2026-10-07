@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+@import url(old_design/menu/menu.css);
+
+@import url(old_design/alerts.css);
+
+@import url(old_design/buttons.css);
+
+@import url(old_design/common.css);
+
+@import url(old_design/filters.css);
+
+@import url(old_design/inputs.css);
+
+@import url(old_design/pagination.css);
+
+@import url(old_design/panels.css);
+
+@import url(old_design/tables.css);
+
+@import url(old_design/tabs.css);
+
+@import url(old_design/trainings.css);
+
+@import url(old_design/tasks.css);
+
+@import url(old_design/audio.css);
+
+@import url(old_design/webinar.css);
+
+@import url(redesign.css);
+
+:root { --account-theme-main-family-font: 'ALS Granate VF', "Helvetica Neue", Helvetica, Arial sans-serif; --account-theme-primary-white: #ffffff; --account-theme-primary-black: #000000; --account-theme-primary-black-second-light: #00000026; --account-theme-primary-black-second-dark: #00000059; --account-theme-secondary-color: #f2f2f2; --account-theme-secondary-dark-color: #E6E6E6; --account-theme-weak-info-bg: rgba(234, 244, 251, 1); --account-theme-weak-warning-bg: rgba(254, 242, 237, 1); --account-theme-weak-success-bg: rgba(227, 244, 238, 1); --account-theme-secondary-grey-5: rgba(0, 0, 0, 0.05); --account-theme-secondary-grey-7: rgba(0, 0, 0, 0.07); --account-theme-secondary-grey-10: rgba(0, 0, 0, 0.10); --account-theme-secondary-grey-12: rgba(0, 0, 0, 0.12); --account-theme-secondary-grey-15: rgba(0, 0, 0, 0.15); --account-theme-secondary-grey-20: rgba(0, 0, 0, 0.2); --account-theme-secondary-grey-25: rgba(0, 0, 0, 0.25); --account-theme-secondary-grey-35: rgba(0, 0, 0, 0.35); --account-theme-secondary-grey-60: rgba(0, 0, 0, 0.6); --account-theme-second-light: #00000026; --account-theme-second-dark: #00000059; --account-theme-secondary-text: #a6a6a6; --account-theme-input-border: #D9D9D9; --account-theme-input-bg: #FFFFFF; --account-theme-primary-alert: rgba(237, 15, 68, 1); --account-theme-price-percent-color: rgba(0, 184, 129, 1); --account-theme-danger-text-color: rgba(237, 15, 68, 1); --account-theme-secondary-red: #ed0f44; --account-theme-secondary-red-20: rgba(237, 15, 68, 0.2); --account-theme-secondary-green: #00d495; --account-theme-secondary-dark-green: #00815b; --account-theme-secondary-green-20: rgba(0, 212, 149, 0.2); --account-theme-secondary-orange: #ffbb0b; --account-theme-secondary-orange-20: rgba(255, 187, 11, 0.2); --account-theme-secondary-blue: #007ea6; --account-theme-secondary-blue-20: rgba(11, 211, 255, 0.2); --account-theme-btn-overlay-danger: rgba(237, 15, 68, 0.5); --account-theme-btn-hover-danger-btn: #e10f41; --account-theme-btn-info-hover: #007296; --account-theme-btn-danger-hover: #D60E3D; --account-theme-btn-warning-hover: #E6A90A; }
+
+a:hover, a:active, a:visited, a:focus, a:focus-within, a:focus-visible { text-decoration: none; }
+
+.menu-item-profile .user-profile-image { border-radius: 100%; }
+
+.gc-account-leftbar .gc-account-user-menu li a, .gc-account-leftbar .gc-account-user-menu li.menu-item-notifications_button_small a { height: 60px; }
+
+.gc-account-user-submenu-bar h3 { font-weight: 700; }
+
+.gc-account-user-submenu-bar .gc-account-user-submenu li a { text-transform: unset; font-weight: 500; }
+
+.gc-redesigned .rd-ai-chat-btn { background-color: var(--primary-light); }
+
+.ai-chat-btn { background-color: var(--account-theme-main-light-color); }
+
+.gc-right-active-block { border-color: var(--second-light); }
+
+.gc-right-active-block .content-block .menu, .gc-right-active-block, .gc-right-active-block .content-block .user-header-main-info, .gc-right-active-block .content-block .info-panel-group, .gc-right-active-block .open-profile-info, .gc-right-active-block .user-info-content, .gc-right-active-block .content-block .info-panel { background: var(--primary-grey); }
+
+.gc-redesigned .training-card.Card:hover, .gc-redesigned .LessonCard.Card:hover { background-color: var(--account-theme-secondary-dark-color); }
+
+.main-menu__footer .tooltip__trigger { background: var(--secondary-grey-05); font-family: var(--base-font-family); color: var(--secondary-grey-35); }
+
+.main-menu__overrided--is-open { border-color: var(--primary-white); }
+
+body { color: var(--account-theme-primary-text); }
+
+.part-panel.part-panel-new-page-admin-interface, .gc-tags-cloud { background: var(--panel-default-heading-bg-color); color: var(--account-theme-primary-text); }
+
+.dd .dd-list a { color: var(--account-theme-primary-text); }
+
+.dd .dd-list a:hover { color: var(--primary-link-color); }
+
+.dd .dd-list .node-content { border-color: var(--account-theme-secondary-dark-color); }
+
+.dd .dd-list .dd-item .node-content:hover { background: var(--account-theme-secondary-dark-color); }

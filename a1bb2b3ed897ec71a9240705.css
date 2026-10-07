@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+.btn.btn-success { background-color: rgb(25, 156, 104); }
+
+.block-set { font-size: 20px; line-height: 1.55; font-family: "Open Sans", sans-serif, sans, arial; font-weight: 300; -webkit-font-smoothing: antialiased; color: rgb(0, 0, 0); }
+
+.block-set .lt-view.view-collapsed, .block-set .lt-view .view-collapsed { display: none; }
+
+.block-set .lt-system-block.lt-editing, .block-set .lt-modal-block.lt-editing, .block-set .lt-lesson-anchor.lt-editing { background-image: url(/public/img/chess.png); }
+
+.block-set .lt-invisible-block.lt-view, .block-set .lt-modal-block.lt-view { visibility: hidden; overflow: hidden; height: 0px; }
+
+.block-set .lt-anchor.lt-system-block.lt-invisible-block.lt-view { visibility: visible; height: 1px; }
+
+.block-set p { margin: 0px; line-height: inherit; }
+
+.block-set h1 { font-size: 190%; font-weight: bold; margin-bottom: 1em; }
+
+.block-set button:focus, .block-set button:active, .block-set button:active:focus, .block-set .btn:focus, .block-set .btn:active, .block-set .btn:active:focus { outline: none; }
+
+.block-set .block-content { max-width: 1200px; margin: 0px auto; box-sizing: border-box; padding-left: 50px; padding-right: 50px; }
+
+.block-set .lt-header { }
+
+.block-set .text-xsmall { font-size: 14px; line-height: 1.55; }
+
+.block-set .text-small { font-size: 80%; line-height: 1.55; }
+
+.block-set .text-subnormal { font-size: 90%; line-height: 1.55; }
+
+.block-set .text-large { font-size: 120%; }
+
+@media (max-width: 1200px) {
+  .block-set { font-size: 18px; }
+  .block-set .text-small { font-size: 16px; }
+}
+
+@media (max-width: 640px) {
+  .block-set { font-size: 16px; }
+  .block-set .text-large { font-size: 22px; }
+  .block-set .text-subnormal { font-size: 16px; line-height: 1.45; }
+  .block-set .text-small { font-size: 14px; line-height: 1.45; }
+}
+
+[contenteditable] { outline: none; }
+
+.gc-page-nav-items-menu { position: fixed; top: 20px; right: 20px; z-index: 10000; color: white; }
+
+.gc-page-nav-items-menu a { background: black; color: white; padding: 5px 15px; border-radius: 5px; font-size: 12px; }
+
+.gc-page-nav-items-menu a:hover { color: white; }
+
+.gc-page-nav-items-menu a.create-link-link { background: darkblue; }
+
+.gc-page-nav-items-menu a.create-link-link { background: darkblue; }
+
+h1.f-header, h2.f-header, h3.f-header, h4.f-header, h5.f-header, h6.f-header { margin-top: 0px; margin-bottom: 0px; }
+
+h1.f-subheader, h2.f-subheader, h3.f-subheader, h4.f-subheader, h5.f-subheader, h6.f-subheader { margin-top: 0px; margin-bottom: 0px; line-height: inherit; }
+
+.f-header { font-family: Roboto, sans-serif; font-weight: 700; line-height: 1.23; }
+
+.f-header.f-header-20 { font-size: 20px; line-height: 1.23; }
+
+.f-header.f-header-26 { font-size: 26px; line-height: 1.23; }
+
+.f-header.f-header-28 { font-size: 28px; line-height: 130%; }
+
+.f-header.f-header-48 { font-size: 48px; line-height: 130%; }
+
+.f-header.f-header-36 { font-size: 36px; line-height: 1.23; }
+
+.f-header.f-header-52 { font-size: 52px; line-height: 1.23; }
+
+.f-header.f-header-64 { font-size: 64px; line-height: 1.23; }
+
+.f-header.f-header-72 { font-size: 72px; line-height: 1.17; }
+
+.f-header.f-header-82 { font-size: 86px; line-height: 1.17; }
+
+.f-header.f-header-104 { font-size: 104px; line-height: 1.17; }
+
+.f-header.f-header.f-lesson-header-1 { font-size: 22px; line-height: 1.23; font-weight: normal; margin-bottom: 0px; }
+
+@media (max-width: 1200px) {
+  .f-header.f-header-36 { font-size: 32px; }
+  .f-header.f-header-48 { font-size: 42px; }
+  .f-header.f-header-52 { font-size: 47px; }
+  .f-header.f-header-64 { font-size: 60px; }
+  .f-header.f-header-72 { font-size: 68px; }
+  .f-header.f-header-82 { font-size: 78px; }
+  .f-header.f-header-104 { font-size: 80px; }
+}
+
+@media (max-width: 640px) {
+  .f-header.f-header-36 { font-size: 28px; }
+  .f-header.f-header-48 { font-size: 29px; }
+  .f-header.f-header-52 { font-size: 30px; }
+  .f-header.f-header-64 { font-size: 30px; }
+  .f-header.f-header-72 { font-size: 32px; }
+  .f-header.f-header-82 { font-size: 36px; }
+  .f-header.f-header-104 { font-size: 60px; }
+}
+
+@media (max-width: 480px) {
+  .f-header.f-header-36 { font-size: 28px; }
+  .f-header.f-header-48 { font-size: 29px; }
+  .f-header.f-header-64 { font-size: 30px; }
+  .f-header.f-header-72 { font-size: 30px; }
+  .f-header.f-header-82 { font-size: 30px; }
+  .f-header.f-header-104 { font-size: 40px; }
+}
+
+.f-subheader { font-family: Roboto, sans-serif; font-weight: 600; }
+
+.f-subheader.f-subheader- { font-size: 20px; }
+
+.f-subheader.f-subheader-md { font-size: 16px; }
+
+.f-subheader.f-subheader-sm { font-size: 14px; }
+
+@media screen and (max-width: 1200px) {
+  .f-subheader { }
+  .f-subheader.f-subheader-md { font-size: 16px; }
+}
+
+@media screen and (max-width: 640px) {
+  .f-subheader.f-subheader-sm { font-size: 10px; }
+  .f-subheader.f-subheader-md { font-size: 14px; }
+}
+
+.f-desc { font-family: Roboto, sans-serif; font-weight: 300; font-size: 16px; }
+
+.f-desc.f-desc-xxs { font-size: 14px; line-height: 1.55; }
+
+.f-desc.f-desc-xs { font-size: 16px; line-height: 1.55; }
+
+.f-desc.f-desc-md { font-size: 20px; line-height: 1.55; }
+
+.f-desc.f-desc-lg { font-size: 22px; line-height: 1.55; }
+
+.f-desc.f-desc-xl { font-size: 24px; line-height: 1.5; }
+
+.f-desc.f-desc-xxl { font-size: 26px; line-height: 1.45; }
+
+@media screen and (max-width: 1200px) {
+  .f-desc.f-desc-xs { font-size: 14px; }
+  .f-desc.f-desc-md { font-size: 18px; line-height: 1.45; }
+  .f-desc.f-desc-lg { font-size: 20px; }
+  .f-desc.f-desc-xl { font-size: 22px; }
+  .f-desc.f-desc-xxl { font-size: 22px; }
+}
+
+@media screen and (max-width: 640px) {
+  .f-desc.f-desc-xs { font-size: 12px; }
+  .f-desc.f-desc-md { font-size: 16px; line-height: 1.45; }
+  .f-desc.f-desc-lg { font-size: 18px; line-height: 1.45; }
+  .f-desc.f-desc-xl { font-size: 20px; line-height: 1.4; }
+  .f-desc.f-desc-xxl { font-size: 20px; }
+}
+
+.f-name { font-family: Roboto, sans-serif; font-weight: 600; }
+
+.f-name.f-name-lg { font-size: 22px; line-height: 1.35; }
+
+@media screen and (max-width: 1200px) {
+  .f-name.f-name-lg { font-size: 20px; }
+}
+
+.f-text { font-family: "Open Sans", serif; font-weight: 300; }
+
+.f-text h1, .f-text h2, .f-text h3, .f-text h4, .f-text h5, .f-text h6 { margin: 0px; }
+
+.lt-image-caption { font-size: 16px; }
+
+.lt-block .f-btn { display: inline-block; font-family: Roboto, sans-serif; min-height: 60px; border: 0px; border-radius: 0px; font-size: 16px; padding-left: 60px; padding-right: 60px; text-align: center; white-space: nowrap; vertical-align: middle; font-weight: bold; background-image: none; cursor: pointer; appearance: none; user-select: none; box-sizing: border-box; }
+
+.lt-block .f-btn.f-btn-success { color: rgb(255, 255, 255); background-color: rgb(25, 156, 104); }
+
+.lt-block .f-btn.f-btn-lg { font-size: 20px; }
+
+.lt-block .f-btn.f-btn-sm { height: auto; padding-left: 10px; padding-right: 10px; font-size: 14px; font-weight: normal; }
+
+.f-btn td { vertical-align: middle; }
+
+@media screen and (max-width: 640px) {
+  .lt-block .f-btn { white-space: normal; padding-left: 30px; padding-right: 30px; }
+}
+
+.f-input { margin: 0px; font-family: Roboto, sans-serif; padding: 0px 20px; font-size: 16px; line-height: 1.33; width: 100%; border: 0px; border-radius: 0px; box-sizing: border-box; }
+
+input.f-input { height: 60px; }
+
+textarea-.f-input { height: 60px; }
+
+textarea.f-input { padding: 10px; }
+
+.icon-wrapper { text-align: center; font-size: 40px; }
+
+.icon-wrapper .icon { background: rgb(240, 240, 240); width: 100px; height: 100px; padding-top: 30px; text-align: center; border-radius: 50%; }
+
+.ul-checks { list-style: none; }
+
+.ul-checks li::before { content: "✓"; position: absolute; margin-left: -1.3em; font-weight: bold; }
+
+.ul-checks-2 li::before { content: "✔"; }
+
+.ul-checks-3 li::before { content: "☑"; }
+
+.ul-checks-4 li::before { content: "✭"; }
+
+.ul-checks-5 li::before { content: "☑"; }
+
+.ul-checks-6 li::before { content: "✕"; }
+
+.ul-checks-7 li::before { content: "✖"; }
+
+.ul-checks-8 li::before { content: "✘"; }
+
+.ul-checks-9 li::before { content: "☒"; }
+
+.image-box { max-width: 100%; }
+
+.image-box.image-box-with-border img { border: 1px solid rgb(170, 170, 170); box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px 5px; }
+
+.image-box img { max-width: 100%; }
+
+.lt-system-element { background-image: url(/public/img/chess.png); opacity: 0.5; text-align: center; }
+
+.f-text-transform-uppercase { text-transform: uppercase; }
+
+table.table.table-vertical-middle tr td { vertical-align: middle; }
+
+.f-quote { padding: 20px 40px 20px 20px; overflow: hidden; }
+
+.f-quote .img-block { float: left; padding-top: 5px; }
+
+.f-quote .img-block img { max-width: 100%; }
+
+.f-quote .text-block { margin-left: 64px; padding-left: 20px; }
+
+.f-quote.small-image .img-block { width: 64px; }
+
+.f-quote.small-image .text-block { margin-left: 64px; }
+
+.f-quote.medium-image .img-block { width: 100px; }
+
+.f-quote.medium-image .text-block { margin-left: 100px; }
+
+@media (max-width: 640px) {
+  .f-quote .text-block { margin-left: 0px !important; }
+}
+
+.f-quote.big-image .img-block { width: 200px; }
+
+.f-quote.big-image .text-block { margin-left: 200px; }
+
+.f-quote .author-name { padding-top: 10px; }
+
+@media (max-width: 640px) {
+  .f-quote { font-size: 16px; padding-right: 20px; }
+  .f-quote .text-block { clear: both; margin-left: 0px; padding-left: 0px; padding-top: 10px; }
+}
+
+.lt-tsr-content form.more-button { margin-top: 20px; margin-left: 160px; }
+
+@media (max-width: 640px) {
+  .lt-tsr-content .more-button { text-align: center; margin-left: 0px !important; }
+}
+
+a.dotted-link { border-bottom: 1px dotted rgb(0, 108, 175); text-decoration: none; }
+
+a.dotted-link:hover { text-decoration: none; }
+
+.nav-item-link.link-stat { width: 35px; background: url(/public/img/link-stat.png) center center / 20px auto no-repeat black; }
+
+@media (max-width: 768px) {
+  .nav-item-link.link-stat { display: none; }
+}
+
+.simple-image { text-align: center; }
+
+.simple-image img { max-width: 100%; max-height: 600px; }
+
+.simple-tcb-01 .flex-container .flex-column { padding-left: 0px; }
