@@ -1,0 +1,3 @@
+@charset "utf-8";
+
+:root { --filter-h4-color: var(--account-theme-primary-text); --filter-list-badge-bg: none; --filter-list-badge-color: var(--account-theme-primary-text); --filter-list-link-color: var(--account-theme-primary-text); --filter-list-selected-link-bg-color: var(--account-theme-secondary-color); --filter-list-selected-link-color: var(--account-theme-primary-text); --filter-list-selected-link-badge-color: var(--account-theme-primary-text); }

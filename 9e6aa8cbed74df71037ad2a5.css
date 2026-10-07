@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#passwordForm .password { width: 400px; }
+
+.change-password-form .password { width: 80%; max-width: 425px; }
+
+:has(> .reveal-password) { position: relative; }
+
+.reveal-password { position: absolute; right: 5px; bottom: 5px; width: 24px; height: 24px; font-size: 18px; line-height: 24px; text-align: center; cursor: pointer; }
+
+.reveal-password .glyphicon { color: rgb(119, 119, 119) !important; }
+
+.reveal-password:hover .glyphicon { color: rgb(51, 51, 51) !important; }
+
+.password-field { overflow: hidden; }
+
+.password-field .reveal-password { top: calc(50% - 12px); right: 10px; }
+
+.set-user-password .reveal-password { top: 32px; }
+
+.reset-user-password .reveal-password { top: 6px; }

@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+.lt-menu.lt-editing { background-image: url(/public/img/chess.png); }
+
+.lt-menu { overflow: hidden; }
+
+.lt-menu.style-with-border { border-bottom: 1px solid rgb(221, 221, 221); box-shadow: rgba(0, 0, 0, 0.1) 4px 2px 4px; }
+
+.lt-menu.positionabsolute { position: absolute; top: 0px; right: 0px; left: 0px; z-index: 100; }
+
+.lt-menu.positionfixed { position: fixed; top: 0px; z-index: 100; right: 0px; left: 0px; }
+
+.lt-menu.positionsticky { left: 0px; }
+
+.lt-menu.positionsticky.scroll-passed { position: fixed; top: 0px; z-index: 100; right: 0px; }
+
+.lt-menu.positionstatic { position: static; }
+
+.lt-menu .menu-wrapper { width: 100%; z-index: 990; box-shadow: transparent 0px 1px 3px; transition: background-color 300ms linear; }
+
+.lt-menu .menu-wrapper .collapsed-view { display: none; }
+
+.lt-menu .menu-wrapper .collapsed-view .toggler { display: table-cell; vertical-align: middle; background: black; color: white; font-weight: bold; padding: 0px 10px; text-align: left; cursor: pointer; width: 30px; }
+
+.lt-menu .menu-wrapper .collapsed-view .f-header { cursor: pointer; }
+
+.lt-menu .menu-wrapper .collapsed-view .collapsed-contacts { white-space: nowrap; font-weight: normal; font-size: 14px; }
+
+.lt-menu .beforeready { visibility: hidden; }
+
+.lt-menu ul { margin: 0px; padding: 0px; }
+
+.lt-menu .menu-list li.active a { opacity: 0.7; }
+
+.lt-menu .main-container { width: 100%; display: table; }
+
+.lt-menu .main-container.c12collumns { max-width: 1200px; margin: 0px auto; }
+
+.lt-menu .leftside { display: table-cell; vertical-align: middle; }
+
+.lt-menu .centerside { display: table-cell; vertical-align: middle; text-align: center; width: 100%; }
+
+.lt-menu .centerside.menualign-left { text-align: left; padding-left: 40px; }
+
+.lt-menu .centerside.menualign-right { text-align: right; }
+
+.lt-menu .rightside { display: table-cell; vertical-align: middle; text-align: right; }
+
+.lt-menu .menu01 .lastside { display: table-cell; vertical-align: middle; }
+
+.lt-menu .padding40px { width: 40px; }
+
+.lt-menu .main-container.c12collumns .padding40px { width: 20px; }
+
+.lt-menu .logo { display: inline-block; font-size: 24px; font-weight: 400; white-space: nowrap; padding-right: 30px; }
+
+.lt-menu .imglogo { margin-right: 30px; }
+
+.lt-menu .list { list-style-type: none; margin: 0px; padding: 0px !important; }
+
+.lt-menu .list-item { clear: both; font-family: Roboto, sans-serif; font-size: 16px; display: inline; padding-left: 15px; padding-right: 15px; margin: 0px; color: rgb(0, 0, 0); white-space: nowrap; }
+
+.lt-menu .list-item .t-active { opacity: 0.7; }
+
+.lt-menu .list-item:first-child { padding-left: 0px; }
+
+.lt-menu .list-item:last-child { padding-right: 0px; }
+
+.lt-menu .leftcontainer { display: inline-block; }
+
+.lt-menu .rightcontainer { display: table; text-align: right; width: auto; position: relative; float: right; }
+
+.lt-menu .right-descr { padding-left: 30px; display: table-cell; vertical-align: middle; white-space: nowrap; font-family: Roboto, sans-serif; font-size: 13px; color: white; }
+
+.lt-menu .right-buttons { padding-left: 30px; display: table-cell; vertical-align: middle; }
+
+.lt-menu .right-buttons-wrap { display: table; width: auto; float: right; }
+
+.lt-menu .right-buttons-but { display: table-cell; vertical-align: middle; }
+
+.lt-menu .right-share-buttons { display: table-cell; vertical-align: middle; min-width: 220px; }
+
+.lt-menu .b-share { display: table !important; float: right; }
+
+.lt-menu .b-share-btn-wrap { display: table-cell !important; float: none !important; padding-left: 5px !important; }
+
+.lt-menu .right-langs { padding-left: 30px; display: table-cell; vertical-align: middle; }
+
+.lt-menu .right-langs-wrap { display: table; width: auto; float: right; }
+
+.lt-menu .right-langs-lang { display: table-cell; vertical-align: middle; padding: 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; color: rgb(0, 0, 0); }
+
+.lt-menu .right-social-links { padding-left: 30px; display: table-cell; vertical-align: middle; line-height: 0px; }
+
+.lt-menu .right-social-links-wrap { display: table; width: auto; }
+
+.lt-menu .right-social-links a { display: block; vertical-align: middle; }
+
+.lt-menu .right-social-links-item { display: table-cell; vertical-align: middle; padding: 0px 5px; }
+
+.lt-menu a, .lt-menu #allrecords a { text-decoration: none; color: rgb(0, 0, 0); }
+
+.lt-menu .f-btn { height: auto; min-height: 20px; font-size: 14px; padding-left: 10px; padding-right: 10px; margin-left: 10px; }
+
+@media screen and (max-width: 1200px) {
+  .lt-menu .padding40px { width: 20px; }
+  .lt-menu .main-container.c12collumns .padding40px { width: 20px; }
+  .lt-menu .imglogo { margin-right: 15px; }
+  .lt-menu .logo { padding-right: 15px; }
+  .lt-menu .right-descr { padding-left: 15px; }
+  .lt-menu .right-buttons { padding-left: 15px; }
+  .lt-menu .right-share-buttons { padding-left: 15px; }
+  .lt-menu .right-langs { padding-left: 15px; }
+  .lt-menu .right-social-links { padding-left: 15px; }
+}
+
+@media screen and (max-width: 980px) {
+  .lt-menu .menu-wrapper { position: static; text-align: center; display: block; margin: 0px; padding: 0px; height: auto !important; }
+  .lt-menu.mobile-line.positionabsolute, .lt-menu.mobile-line.positionfixed, .lt-menu.mobile-line.positionstatic, .lt-menu.mobile-line.positionsticky { position: static; }
+  .lt-menu .leftside, .lt-menu .rightside, .lt-menu .centerside { display: block; text-align: center; float: none; }
+  .lt-menu .leftcontainer { display: block; }
+  .lt-menu.mobile-toggler.positionfixed { position: fixed; top: 0px; width: 100%; }
+  .lt-menu.mobile-toggler.positionfixed .leftcontainer { display: none; }
+  .lt-menu .leftcontainer, .lt-menu .centercontainer, .lt-menu .rightcontainer { padding: 20px 0px; }
+  .lt-menu .imglogo { box-sizing: border-box; padding: 20px; margin: 0px auto; width: auto !important; }
+  .lt-menu .imglogomobile.imglogo { width: 100% !important; }
+  .lt-menu .padding40px { display: none; }
+  .lt-menu .padding10px { display: none; }
+  .lt-menu .rightcontainer { display: table; position: static; float: none; text-align: center; margin: 0px auto; }
+  .lt-menu .right-share-buttons { display: table; position: static; padding: 15px 0px; margin: 0px auto; text-align: center; float: none; min-width: inherit; }
+  .lt-menu .right-buttons { display: table; padding: 15px 0px; margin: 0px auto; text-align: center; }
+  .lt-menu .right-descr, .lt-menu .right-langs, .lt-menu .right-social-links { display: table; padding: 10px 0px; margin: 0px auto; text-align: center; }
+  .lt-menu .logo { text-align: center; margin: 20px; }
+  .lt-menu img { float: inherit; }
+  .lt-menu .list-item { display: block; text-align: center; white-space: normal; padding: 10px !important; }
+  .lt-menu .f-btn { margin-left: 5px; }
+  .lt-menu .logo { white-space: normal; padding: 0px; }
+}
+
+@media screen and (max-width: 640px) {
+  .lt-menu .right-buttons-but { display: table; padding: 0px; margin: 0px auto; }
+  .lt-menu .leftcontainer { padding: 0px; }
+}
+
+@media screen and (max-width: 980px) {
+  .lt-menu.mobile-toggler .menu-wrapper { top: 0px; left: 0px; width: 100%; background: black; height: auto !important; }
+  .lt-menu.mobile-toggler .menu-wrapper .collapsed-view { display: table; width: 100%; height: 40px; }
+  .lt-menu.mobile-toggler .menu-wrapper .collapsed-view .collapsed-content { padding-left: 10px; display: table-cell; vertical-align: middle; text-align: left; }
+  .lt-menu.mobile-toggler .menu-wrapper .collapsed-view .collapsed-contacts { display: table-cell; text-align: right; vertical-align: middle; padding-right: 20px; }
+  .lt-menu.mobile-toggler .menu-wrapper .collapsed-view .collapsed-button { vertical-align: middle; display: table-cell; }
+  .lt-menu.mobile-toggler .menu-wrapper .main-container { overflow: hidden; display: none; }
+  .lt-menu.mobile-toggler .menu-wrapper.expanded .main-container { display: block; transition: height 0.4s; height: auto !important; }
+  .lt-menu.mobile-toggler .menu-wrapper.expanded .collapsed-button { display: none; }
+}
+
+.menu01.lt-editing .menu-wrapper { position: static !important; }

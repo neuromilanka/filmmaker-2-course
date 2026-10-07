@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@keyframes rotation { 
+  100% { transform: rotate(360deg); }
+}
+
+.form-spinner { display: flex; align-items: center; flex-direction: column; }
+
+.form-spinner .form-spinner__spinner { overflow: visible; color: white; animation: 0.8s linear 0s infinite normal none running rotation; transform-origin: 50% 50%; width: 20px; height: 20px; }

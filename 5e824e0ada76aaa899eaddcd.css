@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.iti { --iti-path-flags-1x: url(../img/flags.png); --iti-path-flags-2x: url(../img/flags@2x.png); --iti-path-globe-1x: url(../img/globe.png); --iti-path-globe-2x: url(../img/globe@2x.png); width: 100%; }
+
+.iti__flag { background-image: url(../intlTelInput/img/flags.png); }
+
+.iti__globe { background-image: url(../intlTelInput/img/globe.png); }
+
+.iti__last-preferred { border-bottom: 1px solid rgb(204, 204, 204); padding-bottom: 12px; }

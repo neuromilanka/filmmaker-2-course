@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.custom-field.required .field-label { font-weight: bold; }
+
+.custom-field .required-sign { display: none; }
+
+.custom-field.required .required-sign { display: inline; color: red; padding-left: 5px; }
+
+.custom-field { margin-bottom: 30px; }
+
+.custom-field .field-description-block { font-style: italic; color: rgb(153, 153, 153); }
+
+.field-params .required-input { margin-right: 5px; }
+
+.custom-form .custom-field { margin-bottom: 15px; margin-top: 15px; }
+
+.custom-form-editor .custom-field { margin-bottom: 10px; }
+
+.custom-field-header.field-numeric { text-align: right; }
+
+.custom-field-value.field-numeric { text-align: right; }
+
+.custom-field.type-numeric .form-control { text-align: right; }
+
+.custom-field.type-select select { max-width: 400px; }
+
+.custom-field.type-select .field-input-block label { display: block; text-indent: -15px; padding-left: 15px; }
+
+.custom-field.type-select .field-input-block input { margin-right: 5px; }
+
+.custom-field.type-numeric .form-control { display: inline; width: auto; }
+
+.field-cols { float: left; margin-right: 20px; }
+
+.gc-standard-user-info { overflow: hidden; }
+
+.gc-standard-user-info .gc-user-block-avatar { float: left; margin-right: 15px; }
+
+.global-confirm-checkbox-block { text-align: left; font-size: 14px; padding-bottom: 6px; padding-top: 6px; overflow: hidden; }
+
+.lt-form-horizontal .global-confirm-checkbox-block { padding-top: 0px; }
+
+.global-confirm-checkbox-block input { width: auto; display: inline-block; float: left; }
+
+.global-confirm-checkbox-block span.checkbox-text { margin-left: 20px; display: block; }
+
+.talks-link { white-space: nowrap; visibility: hidden; }
+
+:hover > .talks-link { visibility: visible; }
+
+@media (max-width: 700px) {
+  .talks-link { visibility: visible; }
+}
+
+.old-price { text-decoration: line-through; color: rgb(153, 153, 153); white-space: nowrap; }

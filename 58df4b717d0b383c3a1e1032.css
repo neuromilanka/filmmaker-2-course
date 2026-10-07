@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.lt-stsr-block { position: relative; color: rgb(0, 0, 0); min-width: 250px; text-decoration: none; }
+
+.lt-stsr-block:active, .lt-stsr-block:hover, .lt-stsr-block:visited { color: rgb(0, 0, 0); text-decoration: none; }
+
+.lt-stsr-block:hover { text-decoration: none; }
+
+.lt-stsr-block .f-subheader { letter-spacing: normal; }
+
+.lt-stsr-block .description { font-size: 80%; }
+
+.lt-stsr-block .icon { margin-bottom: 5px; margin-top: 5px; }
+
+.lt-stsr-block .image-wrapper:first-child { margin-top: 0px; }
+
+.lt-stsr-block .image-wrapper { margin-top: 10px; margin-bottom: 10px; width: 100%; overflow: hidden; height: 20vh; }
+
+.lt-stsr-block .image-wrapper div.image { width: 100%; height: 100%; background-position: center center; background-repeat: no-repeat; }
+
+.lt-stsr-block .rounded-image { opacity: 1; border-radius: 50%; }
+
+.lt-stsr-block .rounded-image:hover { opacity: 0.7; transition: opacity 0.3s; }
+
+.stsr01 .header { color: rgb(2, 193, 245); font-size: 100%; }
+
+@media (max-width: 1000px) {
+  .stsr01 .lt-stsr-block { margin-bottom: 20px; }
+}
+
+.stsr01 .price { padding-top: 20px; color: black; font-weight: bold; font-size: 26px; }
+
+.stsr01 .button { padding-top: 20px; }
+
+.stsr02 .lt-stsr-block .lt-stsr-text-part { padding-left: 20px; padding-right: 20px; }
+
+.stsr02 .lt-stsr-block .header { font-size: 120%; font-weight: 100; margin-bottom: 8px; }
+
+.stsr02 .lt-stsr-block .subheader { font-size: 70%; color: rgb(153, 153, 153); font-weight: bold; }
+
+.stsr02 .lt-stsr-block .description { font-size: 70%; }
+
+.stsr03 .header { font-size: 130%; font-weight: 400; }
+
+.stsr04 .header { margin-top: 15px; margin-bottom: 15px; }
+
+.stsr05 .header { text-align: center; padding-top: 8px; padding-bottom: 5px; font-size: 22px; line-height: 1.35; font-family: Roboto, sans-serif; font-weight: 600; color: rgb(0, 0, 0); }
+
+.stsr05 .description { color: rgb(0, 0, 0); margin-bottom: 20px; font-family: Roboto, sans-serif; font-weight: 300; padding-top: 30px; padding-bottom: 30px; font-size: 22px; line-height: 1.55; }
+
+.stsr05 .subheader { color: rgb(0, 0, 0); text-align: center; padding-top: 0px; padding-bottom: 6px; letter-spacing: 2px; font-size: 14px; line-height: 1.55; font-family: Roboto, sans-serif; font-weight: 300; }
+
+.stsr-with-text-paddings .lt-stsr-text-part { padding-left: 20px; padding-right: 20px; }
+
+.fotorama_custom__arr { cursor: pointer; position: absolute; z-index: 5; display: inline-block; top: 48%; color: rgb(52, 73, 94); }
+
+.fotorama_custom__arr--prev { left: -15px; }
+
+.fotorama_custom__arr--next { right: -15px; }
+
+@media screen and (max-width: 767px) {
+  .fotorama_custom__arr { display: none !important; }
+}
