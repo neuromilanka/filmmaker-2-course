@@ -1,0 +1,60 @@
+.tml01 .description {
+  color: #777;
+  margin-top: 10px; }
+.tml01 .timepoint-circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 23px;
+  left: 2px;
+  border-radius: 100px;
+  border: 2px solid #fff; }
+.tml01 .timepoint-line {
+  width: 2px;
+  position: absolute;
+  top: 0;
+  left: 11px;
+  bottom: 0;
+  background: #ff7b00; }
+.tml01 .timepoint-info {
+  float: left;
+  width: 100px;
+  padding: 20px 0; }
+.tml01 .timepoint-content {
+  position: relative;
+  padding: 20px 0;
+  padding-left: 55px;
+  overflow: hidden; }
+  .tml01 .timepoint-content .subheader {
+    display: none; }
+  .tml01 .timepoint-content .header {
+    margin-bottom: 6px; }
+@media screen and (max-width: 640px) {
+  .tml01 .timepoint-info {
+    display: none; }
+  .tml01 .timepoint-line {
+    left: 5px; }
+  .tml01 .timepoint-content {
+    padding: 16px 0;
+    padding-left: 30px;
+    overflow: visible; }
+    .tml01 .timepoint-content .subheader {
+      display: block;
+      font-size: 16px; }
+  .tml01 .timepoint-circle {
+    width: 14px;
+    height: 14px;
+    top: 17px;
+    left: -2px; } }
+@media only screen and (max-width: 540px) {
+  .tml01 .timepoint-content {
+    padding-left: 20px; }
+    .tml01 .timepoint-content .subheader {
+      font-size: 14px; }
+  .tml01 .timepoint-line {
+    left: 4px; }
+  .tml01 .timepoint-circle {
+    width: 13px;
+    height: 13px; } }
+
+/*# sourceMappingURL=timeline.css.map */

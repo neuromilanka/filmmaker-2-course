@@ -487,5 +487,145 @@
         "url": "https://drive.google.com/file/d/11SThnfeC8VD45Y_IEJUyp8owDC3AoYxG/view?usp=drivesdk"
       }
     ]
+  },
+  {
+    "file": "lesson-26.html",
+    "folder": "https://drive.google.com/drive/folders/1dF5g-Z0r_MpUVJ6a9d-Ymv5Pegpt9j4K",
+    "videos": [],
+    "materials": []
+  },
+  {
+    "file": "lesson-27.html",
+    "folder": "https://drive.google.com/drive/folders/1htswsilIsRt1qHvF3uj7MfDqJujU636D",
+    "videos": [
+      {
+        "id": "1JLMucEokb8HYlDXtjke5EDYhRloqsGzm",
+        "name": "УРОК 1. Установка и оплата SYNTX AI.mp4",
+        "url": "https://drive.google.com/file/d/1JLMucEokb8HYlDXtjke5EDYhRloqsGzm/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-28.html",
+    "folder": "https://drive.google.com/drive/folders/1LU6mVTtMncgYJdHR6z2bkHZf8bPxoqce",
+    "videos": [],
+    "materials": [
+      {
+        "id": "1x167912PQx_ubQ7QYMljVhFlYpPuY5_-",
+        "name": "239.png",
+        "url": "https://drive.google.com/file/d/1x167912PQx_ubQ7QYMljVhFlYpPuY5_-/view?usp=drivesdk"
+      },
+      {
+        "id": "1IviPlBYR-3cRe4HJFdiEXILlnNMx7oEu",
+        "name": "248.png",
+        "url": "https://drive.google.com/file/d/1IviPlBYR-3cRe4HJFdiEXILlnNMx7oEu/view?usp=drivesdk"
+      },
+      {
+        "id": "1m9bjGd-bfaRT_7LJSoPFZNLQgITWnIvG",
+        "name": "338.png",
+        "url": "https://drive.google.com/file/d/1m9bjGd-bfaRT_7LJSoPFZNLQgITWnIvG/view?usp=drivesdk"
+      },
+      {
+        "id": "1eQazZotvKQKOMZpZVAT-Z52-7H6fz4w5",
+        "name": "436.png",
+        "url": "https://drive.google.com/file/d/1eQazZotvKQKOMZpZVAT-Z52-7H6fz4w5/view?usp=drivesdk"
+      },
+      {
+        "id": "1TaHC_U3DB9drefEZoGiTj_W2V0-UTtS-",
+        "name": "488.png",
+        "url": "https://drive.google.com/file/d/1TaHC_U3DB9drefEZoGiTj_W2V0-UTtS-/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-29.html",
+    "folder": "https://drive.google.com/drive/folders/1oEFPw_eOB5hPI14lhYmLwpKu0IXzG0_V",
+    "videos": [
+      {
+        "id": "1YRrg_IwSVclsLSN8wUezadC2s3UC7t2j",
+        "name": "УРОК 2. Знакомство с агрегатором Syntx AI Telegram Bot.mp4",
+        "url": "https://drive.google.com/file/d/1YRrg_IwSVclsLSN8wUezadC2s3UC7t2j/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-30.html",
+    "folder": "https://drive.google.com/drive/folders/1BNgV0UyLeb6dZ31kxZ-LPk5jJsaIziUn",
+    "videos": [
+      {
+        "id": "1lVNtyvipAUq23jkSKxq08tmdyIYtqhBW",
+        "name": "УРОК 3. Знакомство с видеогенерацией. Veo Omni Flash 1.1.mp4",
+        "url": "https://drive.google.com/file/d/1lVNtyvipAUq23jkSKxq08tmdyIYtqhBW/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1COhDGWAiWEteSW9CDyLXKRQcBgr2VQkg",
+        "name": "Veo_Omni_Flash_1_1_Prompt_Guide_FILMMAKER_2_0.docx",
+        "url": "https://drive.google.com/file/d/1COhDGWAiWEteSW9CDyLXKRQcBgr2VQkg/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-31.html",
+    "folder": "https://drive.google.com/drive/folders/1pelmA5EIBg0ZCsDH531ocy8xr15NdVXq",
+    "videos": [
+      {
+        "id": "18VttjyJv9VlnY38KIsSL-qj4PWEl8k3K",
+        "name": "УРОК 4. Создание промптов для Seedance_ от сценария до готового видео.mp4",
+        "url": "https://drive.google.com/file/d/18VttjyJv9VlnY38KIsSL-qj4PWEl8k3K/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1ryNljz1BqR8iT6gurLGcDSkrABvobuAq",
+        "name": "FILMMAKER_2_0_Seedance_2_5_Prompt_Guide.docx",
+        "url": "https://drive.google.com/file/d/1ryNljz1BqR8iT6gurLGcDSkrABvobuAq/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-32.html",
+    "folder": "https://drive.google.com/drive/folders/1ywGJ51WRhdTnpAFIqdFsxsH_iQxeTZIm",
+    "videos": [
+      {
+        "id": "1XFSqTy5m1ok4TpRrUCxAYoUOxUr4QouS",
+        "name": "УРОК 5. Реалистичное видео в Seedance2.5_ карточка персонажа и актёрская игра.mp4",
+        "url": "https://drive.google.com/file/d/1XFSqTy5m1ok4TpRrUCxAYoUOxUr4QouS/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1y_ukKnlOBIRMySjVN9k2i3FdLlGcmXrq",
+        "name": "Metodichka_Akterskaya_igra_AI_video_FILMMAKER_2_0.docx",
+        "url": "https://drive.google.com/file/d/1y_ukKnlOBIRMySjVN9k2i3FdLlGcmXrq/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-33.html",
+    "folder": "https://drive.google.com/drive/folders/1SguVWrvQRh2fMCax9sBg5oD3z5246PqZ",
+    "videos": [
+      {
+        "id": "1kba5X220ExN9P_ZXOx5jFiRs5UFDJTTK",
+        "name": "УРОК 6. Болезни нейросетей_ ошибки при создании изображений и способы их исправления.mp4",
+        "url": "https://drive.google.com/file/d/1kba5X220ExN9P_ZXOx5jFiRs5UFDJTTK/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-34.html",
+    "folder": "https://drive.google.com/drive/folders/1Q87kWx7tQmFsWHAzuwytA1S_bfnXfOV-",
+    "videos": [
+      {
+        "id": "1UyaunULQ0d6_PutuNJu2Fv38mH1ngcUT",
+        "name": "УРОК 7. Создание видео с реальным человеком с сохранением внешности в Seedance 2.5.mp4",
+        "url": "https://drive.google.com/file/d/1UyaunULQ0d6_PutuNJu2Fv38mH1ngcUT/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
   }
 ]
