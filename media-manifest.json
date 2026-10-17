@@ -687,5 +687,17 @@
     "folder": "https://drive.google.com/drive/folders/1zXzmrP3LouW7dOiYLe-t8lR5Vz-4hli-",
     "videos": [],
     "materials": []
+  },
+  {
+    "file": "lesson-40.html",
+    "folder": "https://drive.google.com/drive/folders/1OPE5Uo69WA9LKxs1T0fLY1ygFvaUngpm",
+    "videos": [
+      {
+        "id": "1mNJ2dPsd3F2eTvL8C9nq1IG58ek8_3Sc",
+        "name": "УРОК 12. Midjourney_ мудборды, референсы и создание кинематографичных изображений.mp4",
+        "url": "https://drive.google.com/file/d/1mNJ2dPsd3F2eTvL8C9nq1IG58ek8_3Sc/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
   }
 ]
