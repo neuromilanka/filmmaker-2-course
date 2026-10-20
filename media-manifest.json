@@ -699,5 +699,143 @@
       }
     ],
     "materials": []
+  },
+  {
+    "file": "lesson-41.html",
+    "folder": "https://drive.google.com/drive/folders/1vszkO0rs9tHHiqXR2gqB4OjjZf7p3RrX",
+    "videos": [],
+    "materials": []
+  },
+  {
+    "file": "lesson-42.html",
+    "folder": "https://drive.google.com/drive/folders/12uez6wQZUFA9ae4F37fkf5CRNeH0sJYY",
+    "videos": [
+      {
+        "id": "1GT6ZEBy4EmCjdzQ1Y_Za7NHGMub4Hv-w",
+        "name": "УРОК 1. Работа с ElevenLabs через SYNTX AI.mp4",
+        "url": "https://drive.google.com/file/d/1GT6ZEBy4EmCjdzQ1Y_Za7NHGMub4Hv-w/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-43.html",
+    "folder": "https://drive.google.com/drive/folders/103wX2XnCngJR-y2XcKK9XQF2JuvwWUyU",
+    "videos": [
+      {
+        "id": "1N_whaOK7I4CCrrBo8sb-v6Dvm9QdPuRw",
+        "name": "УРОК 2. Официальный ElevenLabs_ регистрация и оплата из России.mp4",
+        "url": "https://drive.google.com/file/d/1N_whaOK7I4CCrrBo8sb-v6Dvm9QdPuRw/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-44.html",
+    "folder": "https://drive.google.com/drive/folders/1_5YxMaViKu9MKp-_5JQzvwKOOhttNntt",
+    "videos": [
+      {
+        "id": "1A35sabwt48QwfOnsHW9ztB3Yct3N0zlq",
+        "name": "УРОК 3. Интерфейс официального ElevenLabs.mp4",
+        "url": "https://drive.google.com/file/d/1A35sabwt48QwfOnsHW9ztB3Yct3N0zlq/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-45.html",
+    "folder": "https://drive.google.com/drive/folders/1APS4Z7e4tUHsx2n8wc5ES6ySRYei1a5z",
+    "videos": [
+      {
+        "id": "1YyttFQkkaunQVPlJuMq3Uf1MfTHgt99m",
+        "name": "УРОК 4. Создание собственного голоса в ElevenLabs.mp4",
+        "url": "https://drive.google.com/file/d/1YyttFQkkaunQVPlJuMq3Uf1MfTHgt99m/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1ZodxT9GbRaJM91DcNYJM7VvTcQNTZIUu",
+        "name": "FILMMAKER_2_0_Obuchalka_ChatGPT_ElevenLabs_Voice_Design.docx",
+        "url": "https://drive.google.com/file/d/1ZodxT9GbRaJM91DcNYJM7VvTcQNTZIUu/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-46.html",
+    "folder": "https://drive.google.com/drive/folders/1dtPIrRUZiAxuGZYHkFfikoKPO1pslNb3",
+    "videos": [
+      {
+        "id": "1sd2fPADiQbtGkEprLvsT61_Nit62L-Ee",
+        "name": "УРОК 5. Клонирование собственного голоса в ElevenLabs.mp4",
+        "url": "https://drive.google.com/file/d/1sd2fPADiQbtGkEprLvsT61_Nit62L-Ee/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-47.html",
+    "folder": "https://drive.google.com/drive/folders/1XLesEh7wxJHywuXKXvDEl2y_JGBydbGA",
+    "videos": [
+      {
+        "id": "1TOXQ-NPcpXat6sfOYiwKEG1GRZna8kAw",
+        "name": "УРОК 6. Создаём видео со своей внешностью и голосом в Seedance 2.5.mp4",
+        "url": "https://drive.google.com/file/d/1TOXQ-NPcpXat6sfOYiwKEG1GRZna8kAw/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1lWLq7Hr_ji9sBbohqkj7OeMgo_l8RdK4",
+        "name": "FILMMAKER_2_0_Seedance_2_5_Методичка_Промпт_Аудио_Липсинк.docx",
+        "url": "https://drive.google.com/file/d/1lWLq7Hr_ji9sBbohqkj7OeMgo_l8RdK4/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-48.html",
+    "folder": "https://drive.google.com/drive/folders/1SIA_fNw7L2pwlGsiIoSugDjyjE2LzXHH",
+    "videos": [
+      {
+        "id": "1SYBjajbiJWy8EA_OJLuMnPNppXDJrS_x",
+        "name": "УРОК 7. Основы монтажа в CapCut на телефоне.mp4",
+        "url": "https://drive.google.com/file/d/1SYBjajbiJWy8EA_OJLuMnPNppXDJrS_x/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-49.html",
+    "folder": "https://drive.google.com/drive/folders/1U62oZegIUSAfFMG5dc3zprlsQdCo1oik",
+    "videos": [
+      {
+        "id": "1kYI2W6lpHEJfeC133uqjPeR9FWx_9bnj",
+        "name": "Дополнительный урок. Создание видео в Kling 4.0 Omni.mp4",
+        "url": "https://drive.google.com/file/d/1kYI2W6lpHEJfeC133uqjPeR9FWx_9bnj/view?usp=drivesdk"
+      }
+    ],
+    "materials": [
+      {
+        "id": "1FTpYolgP-YVr3GK_uRsR8sF0-sJd1eAt",
+        "name": "FILMMAKER_2_0_Kling_4_0_Omni_Инструкция_для_ChatGPT.docx",
+        "url": "https://drive.google.com/file/d/1FTpYolgP-YVr3GK_uRsR8sF0-sJd1eAt/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "file": "lesson-50.html",
+    "folder": "https://drive.google.com/drive/folders/1hwmH9saQuRd5b8EzSpauKtBh2WqEm8zD",
+    "videos": [],
+    "materials": []
+  },
+  {
+    "file": "lesson-51.html",
+    "folder": "https://drive.google.com/drive/folders/14UVoqcJ7cnFWU37g7WAx3A_dUMSfTJl7",
+    "videos": [],
+    "materials": [
+      {
+        "id": "1lH2Q9jqNEJUCOfdsmN5tUv71cJxCI6jl",
+        "name": "Filmmaker_2_0_Master_Prompt_Fotorealizm.docx",
+        "url": "https://drive.google.com/file/d/1lH2Q9jqNEJUCOfdsmN5tUv71cJxCI6jl/view?usp=drivesdk"
+      }
+    ]
   }
 ]
