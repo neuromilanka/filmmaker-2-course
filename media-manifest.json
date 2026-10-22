@@ -837,5 +837,17 @@
         "url": "https://drive.google.com/file/d/1lH2Q9jqNEJUCOfdsmN5tUv71cJxCI6jl/view?usp=drivesdk"
       }
     ]
+  },
+  {
+    "file": "lesson-52.html",
+    "folder": "https://drive.google.com/drive/folders/1K_wn40vCOlJp1RbVgpxJd-uau8nC_3N6",
+    "videos": [
+      {
+        "id": "1Pn2I2ISrUAxqQRsHb4qrEcpQd4b0T2FG",
+        "name": "Создаём песни с помощью Suno.mp4",
+        "url": "https://drive.google.com/file/d/1Pn2I2ISrUAxqQRsHb4qrEcpQd4b0T2FG/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
   }
 ]
