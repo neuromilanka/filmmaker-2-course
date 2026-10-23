@@ -849,5 +849,47 @@
       }
     ],
     "materials": []
+  },
+  {
+    "file": "lesson-53.html",
+    "folder": "https://drive.google.com/drive/folders/1La2dEAfNwQlIqpzJ0Mn77PLj6ZdvD-Bv",
+    "videos": [
+      {
+        "id": "1_tYGH13PlpttyWz6iPMPGGasbgo-OQuC",
+        "name": "УРОК 9. Создание саундтреков и инструментальной музыки.mp4",
+        "url": "https://drive.google.com/file/d/1_tYGH13PlpttyWz6iPMPGGasbgo-OQuC/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-54.html",
+    "folder": "https://drive.google.com/drive/folders/1FzuiEjwg0MhQ76U12ABVKF0cDfP4nkOe",
+    "videos": [
+      {
+        "id": "1B7T5FPnjLQss7cCkYpwKHN4QWdC_LfCf",
+        "name": "УРОК 10. Создание саундтреков и инструментальной музыки. Часть 2 — практика.mp4",
+        "url": "https://drive.google.com/file/d/1B7T5FPnjLQss7cCkYpwKHN4QWdC_LfCf/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
+  },
+  {
+    "file": "lesson-55.html",
+    "folder": "https://drive.google.com/drive/folders/1faMfM7l1jx-giHo749-sRJ704nR5TSUv",
+    "videos": [],
+    "materials": []
+  },
+  {
+    "file": "lesson-56.html",
+    "folder": "https://drive.google.com/drive/folders/1LK7sTnQpSGwfJ9nf8Kjc_TS23WfEsjps",
+    "videos": [
+      {
+        "id": "15QdHM-cKxp4wuTDX2m1dUhQTMAqnpCkx",
+        "name": "Как выпустить свою песню на музыкальных площадках и заработать на ней.mp4",
+        "url": "https://drive.google.com/file/d/15QdHM-cKxp4wuTDX2m1dUhQTMAqnpCkx/view?usp=drivesdk"
+      }
+    ],
+    "materials": []
   }
 ]
